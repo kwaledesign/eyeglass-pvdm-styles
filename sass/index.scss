@@ -1,5 +1,3 @@
-
-
 /**
  * Settings
  *
@@ -10,12 +8,47 @@
 @import "settings/pvdm-s-cursor";
 
 /**
+ * Utilities
+ *
+ * mixins and functions to be used globally
+ */
+@import "utilities/alerts";
+@import "utilities/background-variant";
+@import "utilities/border-radius";
+@import "utilities/buttons";
+@import "utilities/center-block";
+@import "utilities/clearfix";
+@import "utilities/forms";
+@import "utilities/gradients";
+@import "utilities/grid-framework";
+@import "utilities/grid";
+@import "utilities/hide-text";
+@import "utilities/image";
+@import "utilities/labels";
+@import "utilities/list-group";
+@import "utilities/nav-divider";
+@import "utilities/nav-vertical-align";
+@import "utilities/opacity";
+@import "utilities/pagination";
+@import "utilities/panels";
+@import "utilities/progress-bar";
+@import "utilities/reset-filter";
+@import "utilities/resize";
+@import "utilities/responsive-visibility";
+@import "utilities/size";
+@import "utilities/tab-focus";
+@import "utilities/table-row";
+@import "utilities/text-emphasis";
+@import "utilities/text-overflow";
+@import "utilities/vendor-prefixes";
+@import "utilities/pvdm-u-layout";
+
+/**
  * Base
  *
  * Base styles for global css components.
  *
  */
-
 @import "base/pvdm-colors";
 @import "base/pvdm-caret";
 @import "base/pvdm-animations";
