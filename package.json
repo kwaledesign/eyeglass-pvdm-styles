@@ -9,6 +9,10 @@
     "email": "sam@kwaledesign.com",
     "url": "https://github.com/kwaledesign"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwaledesign/eyeglass-pvdm-styles.git"
+  },
   "files": [
     "sass"
   ],
