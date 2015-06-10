@@ -13,10 +13,11 @@
     "url": "https://github.com/kwaledesign/eyeglass-pvdm-styles.git"
   },
   "eyeglass": {
-    "needs": "*"
+    "needs": "*",
+    "exports": "eyeglass-exports.js"
   },
   "keywords": ["eyeglass-module", "sass"],
-  "main": "eyeglass-exports.js",
+  "main": "sass/index.scss",
   "dependencies": {
     "eyeglass": "*"
   }
