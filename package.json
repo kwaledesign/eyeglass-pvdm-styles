@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "Sass eyeglass module",
   "license": "MIT",
-  "repository": "kwaledesign/eyeglass-pvdm-styles",
   "author": {
     "name": "Sam Ashley",
     "email": "sam@kwaledesign.com",
@@ -12,6 +11,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kwaledesign/eyeglass-pvdm-styles.git"
+  },
+  "eyeglass": {
+    "needs": "*"
   },
   "keywords": ["eyeglass-module", "sass"],
   "main": "eyeglass-exports.js",
