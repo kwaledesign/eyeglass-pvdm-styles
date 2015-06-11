@@ -63,7 +63,7 @@ a.label {
 
 // Colors
 // Contextual variations (linked labels get darker on :hover)
-
+/**
 .label-default {
   @include label-variant($label-default-bg);
 }
@@ -86,4 +86,4 @@ a.label {
 
 .label-danger {
   @include label-variant($label-danger-bg);
-}
+}**/

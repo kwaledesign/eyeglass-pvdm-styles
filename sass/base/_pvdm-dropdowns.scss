@@ -420,7 +420,7 @@ $pvdm-dropdown--primary-color-hover: darken($pvdm-dropdown--primary-color, 10%);
   @include clearfix;
   background-color:color('gray', 80) !important;
   //@include transition(all 0.2s ease-out);
-  @include pvdm-ease(all, 200ms, $ease-out);
+  //@include pvdm-ease(all, 200ms, $ease-out);
   // group item structure
   li a {
     display: block;
