@@ -218,7 +218,7 @@ $translateX: 0;
     position:absolute;
     left:0;
     border-radius: 0; //($height-line / 2); 
-    @include pvdm-ease(all, $transition-time, $ease-out);
+    //@include pvdm-ease(all, $transition-time, $ease-out);
     //transition: all $transition-time;
     //-webkit-transition: all $transition-time;
     //-moz-transition: all $transition-time;
@@ -330,7 +330,7 @@ $translateX: 0;
 
 .navmenu nav a {
   //transition: .35s ease-in-out;
-  @include pvdm-ease(all, 200ms, $ease-in-out);
+  //@include pvdm-ease(all, 200ms, $ease-in-out);
 }
 .navmenu nav a:hover {
   //background: color('gray', 30)er !important;
@@ -358,10 +358,10 @@ $translateX: 0;
   bottom: 0;
   margin-left: -16em;
   overflow: scroll;
-  @include pvdm-ease(margin-left, 150ms, $ease-in);
+  //@include pvdm-ease(margin-left, 150ms, $ease-in);
   &.active {
     margin-left: 0;
-    @include pvdm-ease(margin-left, 150ms, $ease-out);
+    //@include pvdm-ease(margin-left, 150ms, $ease-out);
   }
 }
 /*
