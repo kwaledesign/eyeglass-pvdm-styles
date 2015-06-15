@@ -5,6 +5,8 @@
  *
  * @TODO audit
  */
+@import "settings/pvdm-s-tables";
+
 .table-body-striped>tbody:nth-child(odd)>tr>td,
 .table-body-striped>tbody:nth-child(odd)>tr>th {
   background:#f9f9f9;
