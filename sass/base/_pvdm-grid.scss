@@ -4,7 +4,8 @@
  * Define your custom responsive grid.
  *
  */
-@import "eyeglass-pvdm-styles/settings/pvdm-s-grid";
+@import "eyeglass-pvdm-styles/settings";
+@import "eyeglass-pvdm-styles/utilities";
 
 //
 // Set the container width, and override it for fixed navbars in media queries.

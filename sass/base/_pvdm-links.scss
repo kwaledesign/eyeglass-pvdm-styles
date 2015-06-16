@@ -2,7 +2,8 @@
  * PVDM Links
  *
  */
-@import "eyeglass-pvdm-styles/settings/pvdm-s-links";
+@import "eyeglass-pvdm-styles/settings";
+@import "eyeglass-pvdm-styles/utilities";
 
 a {
   color: $link-color;
