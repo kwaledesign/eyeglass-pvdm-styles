@@ -2,8 +2,10 @@
  * Alerts
  *
  */
-@include "eyeglass-pvdm-styles/settings";
-@include "eyeglass-pvdm-styles/utilities";
+@include "eyeglass-pvdm-styles/settings/pvdm-s-spacers";
+@include "eyeglass-pvdm-styles/settings/pvdm-s-colors";
+
+@include "eyeglass-pvdm-styles/utilities/alerts";
 
 // Base styles
 // -------------------------

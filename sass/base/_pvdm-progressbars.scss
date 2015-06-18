@@ -3,8 +3,11 @@
  *
  * @TODO audit
  */
-@import "eyeglass-pvdm-styles/settings";
-@import "eyeglass-pvdm-styles/utilities";
+@import "eyeglass-pvdm-styles/settings/pvdm-s-progressbars";
+@import "eyeglass-pvdm-styles/utilities/box-shadow";
+
+@import "eyeglass-pvdm-styles/utilities/progress-bar";
+
 
 // Bar animations
 // -------------------------
@@ -46,7 +49,7 @@
   text-align: center;
   background-color: $progress-bar-bg;
   @include box-shadow(inset 0 -1px 0 rgba(0,0,0,.15));
-  @include transition(width .6s ease);
+  //@include transition(width .6s ease);
 }
 
 // Striped bars
@@ -67,7 +70,7 @@
 // `.progress-bar.active` approach.
 .progress.active .progress-bar,
 .progress-bar.active {
-  @include animation(progress-bar-stripes 2s linear infinite);
+  //@include animation(progress-bar-stripes 2s linear infinite);
 }
 
 
