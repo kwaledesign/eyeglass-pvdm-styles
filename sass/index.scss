@@ -1,10 +1,24 @@
 /**
+ * JUST FUCKING WORK YOU MOTHER FUCKER
+ *
+ */
+
+/** a fucking test variable **/
+$fuck: red;
+/** a fucking test mixin **/
+@mixin fuckYou() {
+  content: "for fucks sake please fucking work you bitch";
+}
+
+
+
+/**
  * Settings
  *
  * Variables or maps of values to be used globally
  * within base/ and also within any abaqis angular components
  */
-
+/*
 @import "settings/pvdm-s-alerts";
 @import "settings/pvdm-s-badges";
 @import "settings/pvdm-s-blockquotes";
@@ -32,12 +46,13 @@
 @import "settings/pvdm-s-typography";
 @import "settings/pvdm-s-wells";
 @import "settings/pvdm-s-zindex";
-
+*/
 /**
  * Utilities
  *
  * mixins and functions to be used globally
  */
+/*
 @import "utilities/alerts";
 @import "utilities/background-variant";
 @import "utilities/border-radius";
@@ -68,4 +83,6 @@
 @import "utilities/text-overflow";
 @import "utilities/vendor-prefixes";
 @import "utilities/pvdm-u-layout";
+*/
+
 
