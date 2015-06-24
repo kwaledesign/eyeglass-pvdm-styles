@@ -2,10 +2,10 @@
  * Alerts
  *
  */
-@include "eyeglass-pvdm-styles/settings/pvdm-s-spacers";
-@include "eyeglass-pvdm-styles/settings/pvdm-s-colors";
-
-@include "eyeglass-pvdm-styles/utilities/alerts";
+@include "settings/pvdm-s-spacers";
+@include "settings/pvdm-s-colors";
+@include "settings/pvdm-s-alerts"
+@include "utilities/alerts";
 
 // Base styles
 // -------------------------
@@ -59,7 +59,7 @@
 // Alternate styles
 //
 // Generate contextual modifier classes for colorizing the alert.
-
+/*
 .alert-success {
   @include alert-variant($alert-success-bg, $alert-success-border, $alert-success-text);
 }
@@ -75,3 +75,4 @@
 .alert-danger {
   @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
 }
+*/

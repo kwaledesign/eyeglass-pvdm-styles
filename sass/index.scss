@@ -1,17 +1,7 @@
-/**
- * JUST FUCKING WORK YOU MOTHER FUCKER
- *
- */
 
-/** a fucking test variable **/
-$fuck: red;
-/** a fucking test mixin **/
-@mixin fuckYou() {
-  content: "for fucks sake please fucking work you bitch";
-}
-
-
-
+@import "settings/pvdm-s-alerts";
+@import "utilities/alerts";
+@import ""
 /**
  * Settings
  *
